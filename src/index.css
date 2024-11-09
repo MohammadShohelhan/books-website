@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  overflow-y:scroll;
+}
+#nav-items a{
+  font-weight: bold;
+}
+#nav-items a.active{
+color:rgb(80, 233, 80);
+background-color: transparent;
+border:2px solid rgb(80, 233, 80);
+padding:8px 20px ;
+border-radius: 10px;
+  font-weight: bold;
+
+ 
+}
